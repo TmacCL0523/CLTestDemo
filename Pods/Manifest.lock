@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CLKitHelp (1.2):
+    - AFNetworking
+    - CocoaAsyncSocket
+    - DZNEmptyDataSet
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SocketRocket
+    - YYCache
+    - YYModel
+  - CocoaAsyncSocket (7.6.4)
+  - CYLTabBarController (1.29.0):
+    - CYLTabBarController/Core (= 1.29.0)
+  - CYLTabBarController/Core (1.29.0)
+  - DZNEmptyDataSet (1.8.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - SocketRocket (0.5.1)
+  - YYCache (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - CLKitHelp
+  - CYLTabBarController
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CLKitHelp
+    - CocoaAsyncSocket
+    - CYLTabBarController
+    - DZNEmptyDataSet
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SocketRocket
+    - YYCache
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CLKitHelp: ec66f0e926153b1bb6ea7465bbfe0f4b04241170
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 8712c77158f92160aa698a1d450a26fb848c10e0
+
+COCOAPODS: 1.10.0.rc.1
