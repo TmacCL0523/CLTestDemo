@@ -10,6 +10,8 @@
 		133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D2779253E8B3F0058C041 /* AppDelegate.m */; };
 		133D2785253E8B400058C041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133D2784253E8B400058C041 /* Assets.xcassets */; };
 		133D278B253E8B400058C041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D278A253E8B400058C041 /* main.m */; };
+		1383508A25401142009D9BD8 /* AdverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1383508925401142009D9BD8 /* AdverCell.m */; };
+		138350B2254022B2009D9BD8 /* MeSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 138350B1254022B2009D9BD8 /* MeSettingCell.m */; };
 		13FB3A9A253ED1210002DBC1 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FB3A99253ED1210002DBC1 /* DynamicViewController.m */; };
 		13FB3A9F253ED12C0002DBC1 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FB3A9E253ED12C0002DBC1 /* HomePageViewController.m */; };
 		13FB3AA3253ED1370002DBC1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FB3AA2253ED1370002DBC1 /* LoginViewController.m */; };
@@ -30,6 +32,10 @@
 		133D2784253E8B400058C041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133D2789253E8B400058C041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		133D278A253E8B400058C041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1383508825401142009D9BD8 /* AdverCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdverCell.h; sourceTree = "<group>"; };
+		1383508925401142009D9BD8 /* AdverCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdverCell.m; sourceTree = "<group>"; };
+		138350B0254022B2009D9BD8 /* MeSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeSettingCell.h; sourceTree = "<group>"; };
+		138350B1254022B2009D9BD8 /* MeSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeSettingCell.m; sourceTree = "<group>"; };
 		13FB3A98253ED1210002DBC1 /* DynamicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
 		13FB3A99253ED1210002DBC1 /* DynamicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 		13FB3A9D253ED12C0002DBC1 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
@@ -242,6 +248,10 @@
 				13FB3B1A253EF1C50002DBC1 /* MeView.m */,
 				13FB3B23253EF3EA0002DBC1 /* MeHeaderView.h */,
 				13FB3B24253EF3EA0002DBC1 /* MeHeaderView.m */,
+				1383508825401142009D9BD8 /* AdverCell.h */,
+				1383508925401142009D9BD8 /* AdverCell.m */,
+				138350B0254022B2009D9BD8 /* MeSettingCell.h */,
+				138350B1254022B2009D9BD8 /* MeSettingCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -386,10 +396,12 @@
 				13FB3A9A253ED1210002DBC1 /* DynamicViewController.m in Sources */,
 				13FB3AAB253ED1470002DBC1 /* MeViewController.m in Sources */,
 				13FB3B25253EF3EA0002DBC1 /* MeHeaderView.m in Sources */,
+				1383508A25401142009D9BD8 /* AdverCell.m in Sources */,
 				133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */,
 				13FB3B1B253EF1C50002DBC1 /* MeView.m in Sources */,
 				13FB3B14253EEC260002DBC1 /* AppDelegate+RootTabBar.m in Sources */,
 				13FB3AA7253ED1410002DBC1 /* MatchingViewController.m in Sources */,
+				138350B2254022B2009D9BD8 /* MeSettingCell.m in Sources */,
 				133D278B253E8B400058C041 /* main.m in Sources */,
 				13FB3AAF253ED14F0002DBC1 /* MessageViewController.m in Sources */,
 				13FB3AA3253ED1370002DBC1 /* LoginViewController.m in Sources */,

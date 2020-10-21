@@ -13,6 +13,8 @@ target 'CLTestDemo' do
 
   pod 'CLKitHelp'
   pod 'CYLTabBarController'
-
-
+  pod 'PPBadgeView'
+  pod 'SDCycleScrollView'
+  
+  
 end
