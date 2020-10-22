@@ -29,6 +29,7 @@
 #import "UITableView+CLKit.h"
 #import "UIView+CLKit.h"
 #import "CLKitHelp.h"
+#import "CLCollectionLayout.h"
 #import "CLTableView.h"
 #import "CLTextField.h"
 #import "CLKitHelpMacro.h"

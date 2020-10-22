@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - CLKitHelp (1.2):
+  - CLKitHelp (1.2.1):
     - AFNetworking
     - CocoaAsyncSocket
     - DZNEmptyDataSet
@@ -67,7 +67,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  CLKitHelp: ec66f0e926153b1bb6ea7465bbfe0f4b04241170
+  CLKitHelp: 26743f1752c7b1bfabc507c5e2ad04efc17d5e4a
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
@@ -83,4 +83,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 52724c5b9b9cf32708d6256aab1fa74c2334bffd
 
-COCOAPODS: 1.10.0.rc.1
+COCOAPODS: 1.10.0
