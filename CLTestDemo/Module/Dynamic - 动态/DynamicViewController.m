@@ -31,21 +31,33 @@
 **/
 
 #import "DynamicViewController.h"
+#import "DyNamicView.h"
 
 @interface DynamicViewController ()
+
+@property (nonatomic , strong) DyNamicView *baseView;
 
 @end
 
 @implementation DynamicViewController
 
 #pragma mark ================Object - 对象=================
-
+- (DyNamicView *)baseView
+{
+    if (!_baseView) {
+        _baseView = [DyNamicView new];
+    }
+    return _baseView;
+}
 #pragma mark ================Initialize-初始化=================
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = CLRandomColor;
+    [self.view addSubview:self.baseView];
+    [self.baseView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
 
 #pragma mark ================Methods - 方法=================

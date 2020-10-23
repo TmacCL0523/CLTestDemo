@@ -15,5 +15,5 @@
 #import <PPBadgeView.h>
 #import "SDCycleScrollView.h"
 #import <SDWebImage.h>
-
+#import <YYModel.h>
 #endif /* PrefixHeader_pch */

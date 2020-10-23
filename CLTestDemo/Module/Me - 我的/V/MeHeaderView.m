@@ -218,7 +218,7 @@
 - (CGFloat)getHeaderViewHeight
 {
     CLLogFrame(self.starView);
-    CGFloat height = self.starView.clKitY + self.starView.clKitHeight + 20;
+    CGFloat height = self.adverView.clKitY + self.adverView.clKitHeight + 10;
     return height;
 }
 

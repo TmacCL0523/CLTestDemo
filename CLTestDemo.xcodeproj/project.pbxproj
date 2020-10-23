@@ -10,6 +10,8 @@
 		133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D2779253E8B3F0058C041 /* AppDelegate.m */; };
 		133D2785253E8B400058C041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133D2784253E8B400058C041 /* Assets.xcassets */; };
 		133D278B253E8B400058C041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D278A253E8B400058C041 /* main.m */; };
+		136C0B34254171980060448C /* SettingItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 136C0B33254171980060448C /* SettingItemCell.m */; };
+		136C0B4A25418AA60060448C /* DyNamicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 136C0B4925418AA60060448C /* DyNamicView.m */; };
 		1383508A25401142009D9BD8 /* AdverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1383508925401142009D9BD8 /* AdverCell.m */; };
 		138350B2254022B2009D9BD8 /* MeSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 138350B1254022B2009D9BD8 /* MeSettingCell.m */; };
 		13FB3A9A253ED1210002DBC1 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FB3A99253ED1210002DBC1 /* DynamicViewController.m */; };
@@ -32,6 +34,10 @@
 		133D2784253E8B400058C041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133D2789253E8B400058C041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		133D278A253E8B400058C041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		136C0B32254171980060448C /* SettingItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingItemCell.h; sourceTree = "<group>"; };
+		136C0B33254171980060448C /* SettingItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingItemCell.m; sourceTree = "<group>"; };
+		136C0B4825418AA60060448C /* DyNamicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DyNamicView.h; sourceTree = "<group>"; };
+		136C0B4925418AA60060448C /* DyNamicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DyNamicView.m; sourceTree = "<group>"; };
 		1383508825401142009D9BD8 /* AdverCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdverCell.h; sourceTree = "<group>"; };
 		1383508925401142009D9BD8 /* AdverCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdverCell.m; sourceTree = "<group>"; };
 		138350B0254022B2009D9BD8 /* MeSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeSettingCell.h; sourceTree = "<group>"; };
@@ -100,6 +106,29 @@
 				13FB3A75253E8C4B0002DBC1 /* Resources */,
 			);
 			path = CLTestDemo;
+			sourceTree = "<group>";
+		};
+		136C0B4525418A790060448C /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		136C0B4625418A820060448C /* V */ = {
+			isa = PBXGroup;
+			children = (
+				136C0B4825418AA60060448C /* DyNamicView.h */,
+				136C0B4925418AA60060448C /* DyNamicView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		136C0B4725418A840060448C /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
 			sourceTree = "<group>";
 		};
 		13FB3A73253E8C130002DBC1 /* Module */ = {
@@ -186,6 +215,9 @@
 		13FB3A94253ED0760002DBC1 /* Dynamic - 动态 */ = {
 			isa = PBXGroup;
 			children = (
+				136C0B4725418A840060448C /* C */,
+				136C0B4625418A820060448C /* V */,
+				136C0B4525418A790060448C /* M */,
 				13FB3A98253ED1210002DBC1 /* DynamicViewController.h */,
 				13FB3A99253ED1210002DBC1 /* DynamicViewController.m */,
 			);
@@ -252,6 +284,8 @@
 				1383508925401142009D9BD8 /* AdverCell.m */,
 				138350B0254022B2009D9BD8 /* MeSettingCell.h */,
 				138350B1254022B2009D9BD8 /* MeSettingCell.m */,
+				136C0B32254171980060448C /* SettingItemCell.h */,
+				136C0B33254171980060448C /* SettingItemCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -395,11 +429,13 @@
 				13FB3A9F253ED12C0002DBC1 /* HomePageViewController.m in Sources */,
 				13FB3A9A253ED1210002DBC1 /* DynamicViewController.m in Sources */,
 				13FB3AAB253ED1470002DBC1 /* MeViewController.m in Sources */,
+				136C0B34254171980060448C /* SettingItemCell.m in Sources */,
 				13FB3B25253EF3EA0002DBC1 /* MeHeaderView.m in Sources */,
 				1383508A25401142009D9BD8 /* AdverCell.m in Sources */,
 				133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */,
 				13FB3B1B253EF1C50002DBC1 /* MeView.m in Sources */,
 				13FB3B14253EEC260002DBC1 /* AppDelegate+RootTabBar.m in Sources */,
+				136C0B4A25418AA60060448C /* DyNamicView.m in Sources */,
 				13FB3AA7253ED1410002DBC1 /* MatchingViewController.m in Sources */,
 				138350B2254022B2009D9BD8 /* MeSettingCell.m in Sources */,
 				133D278B253E8B400058C041 /* main.m in Sources */,

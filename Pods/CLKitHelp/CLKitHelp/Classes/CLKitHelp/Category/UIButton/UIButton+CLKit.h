@@ -118,6 +118,11 @@ typedef void (^TouchedButtonBlock)(void);
               waitBlock:(void (^)(NSInteger remainTime))waitBlock
             finishBlock:(void (^)(void))finishBlock;
 
+/// 修改图片位置
+/// @param location 图片位置
+/// @param padding 间距
+- (void)clKit_SetImagePoint:(ButtonImageLocation)location andPadding:(CGFloat)padding;
+
 /// 添加点击事件
 /// @param touchHandler 回调
 - (void)clKitAddActionHandler:(TouchedButtonBlock)touchHandler;

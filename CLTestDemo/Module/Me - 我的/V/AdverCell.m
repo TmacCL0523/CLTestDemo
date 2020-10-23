@@ -23,8 +23,6 @@
     
     _icon = [UIImageView new];
     [self.contentView addSubview:_icon];
-    
-
 }
 
 - (void)layoutSubviews
