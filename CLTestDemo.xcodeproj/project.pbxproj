@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13133DCB2547B9D300CE3BB4 /* MessageListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13133DCA2547B9D300CE3BB4 /* MessageListView.m */; };
+		13133DE125480FB300CE3BB4 /* MessageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13133DE025480FB300CE3BB4 /* MessageListCell.m */; };
 		133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D2779253E8B3F0058C041 /* AppDelegate.m */; };
 		133D2785253E8B400058C041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133D2784253E8B400058C041 /* Assets.xcassets */; };
 		133D278B253E8B400058C041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D278A253E8B400058C041 /* main.m */; };
@@ -28,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13133DC92547B9D300CE3BB4 /* MessageListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageListView.h; sourceTree = "<group>"; };
+		13133DCA2547B9D300CE3BB4 /* MessageListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageListView.m; sourceTree = "<group>"; };
+		13133DDF25480FB300CE3BB4 /* MessageListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageListCell.h; sourceTree = "<group>"; };
+		13133DE025480FB300CE3BB4 /* MessageListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageListCell.m; sourceTree = "<group>"; };
 		133D2775253E8B3F0058C041 /* CLTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		133D2778253E8B3F0058C041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		133D2779253E8B3F0058C041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +85,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13133DC02547B39400CE3BB4 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		13133DC12547B39900CE3BB4 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				13133DDE2547C8AA00CE3BB4 /* Cell */,
+				13133DC92547B9D300CE3BB4 /* MessageListView.h */,
+				13133DCA2547B9D300CE3BB4 /* MessageListView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		13133DC22547B39E00CE3BB4 /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		13133DDE2547C8AA00CE3BB4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				13133DDF25480FB300CE3BB4 /* MessageListCell.h */,
+				13133DE025480FB300CE3BB4 /* MessageListCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		133D276C253E8B3F0058C041 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +233,9 @@
 		13FB3A92253ECED90002DBC1 /* Message - 消息 */ = {
 			isa = PBXGroup;
 			children = (
+				13133DC02547B39400CE3BB4 /* M */,
+				13133DC12547B39900CE3BB4 /* V */,
+				13133DC22547B39E00CE3BB4 /* C */,
 				13FB3AAD253ED14F0002DBC1 /* MessageViewController.h */,
 				13FB3AAE253ED14F0002DBC1 /* MessageViewController.m */,
 			);
@@ -428,12 +470,14 @@
 			files = (
 				13FB3A9F253ED12C0002DBC1 /* HomePageViewController.m in Sources */,
 				13FB3A9A253ED1210002DBC1 /* DynamicViewController.m in Sources */,
+				13133DE125480FB300CE3BB4 /* MessageListCell.m in Sources */,
 				13FB3AAB253ED1470002DBC1 /* MeViewController.m in Sources */,
 				136C0B34254171980060448C /* SettingItemCell.m in Sources */,
 				13FB3B25253EF3EA0002DBC1 /* MeHeaderView.m in Sources */,
 				1383508A25401142009D9BD8 /* AdverCell.m in Sources */,
 				133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */,
 				13FB3B1B253EF1C50002DBC1 /* MeView.m in Sources */,
+				13133DCB2547B9D300CE3BB4 /* MessageListView.m in Sources */,
 				13FB3B14253EEC260002DBC1 /* AppDelegate+RootTabBar.m in Sources */,
 				136C0B4A25418AA60060448C /* DyNamicView.m in Sources */,
 				13FB3AA7253ED1410002DBC1 /* MatchingViewController.m in Sources */,

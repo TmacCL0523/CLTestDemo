@@ -19,13 +19,18 @@ pod 'CLKitHelp'
 所有方法添加clkit前缀,调用直接适用CLKit就可以了。（~~NSDate除外~~）
 
 ## 更新
-2020年10月20日 更新文件格式添加NSDate分类
+*  2020年10月22日 修改Button分类添加图片位置方法,修改colletctionLayout无法获取到真实高度问题,暂时用屏幕宽度解决。 
+*  2020年10月22日 添加自定义瀑布流类CLCollectionLayout,修改NSDate分类。
+*  2020年10月20日 更新文件格式添加NSDate分类。
 
 
 ## 项目文件目录
 
-```CLKitHelp
-├─ BaseClass //基类 - 直接继承免写一些常用的方法
+```
+CLKitHelp
+├─ .DS_Store
+├─ BaseClass
+│    ├─ .DS_Store
 │    ├─ CollectionViewCell
 │    │    ├─ CLBaseCollectionViewCell.h
 │    │    └─ CLBaseCollectionViewCell.m
@@ -38,8 +43,9 @@ pod 'CLKitHelp'
 │    └─ ViewController
 │           ├─ CLBaseViewController.h
 │           └─ CLBaseViewController.m
-├─ CLKitHelp.h //头文件
-├─ Category //分类
+├─ CLKitHelp.h
+├─ Category
+│    ├─ .DS_Store
 │    ├─ NSArrary
 │    │    ├─ NSArray+CLKit.h
 │    │    └─ NSArray+CLKit.m
@@ -80,16 +86,21 @@ pod 'CLKitHelp'
 │    └─ UIView
 │           ├─ UIView+CLKit.h
 │           └─ UIView+CLKit.m
-├─ Custom //自定义View
-│    ├─ CLTableView //带Block的TableView
+├─ Custom
+│    ├─ .DS_Store
+│    ├─ CLCollectionFallLayout
+│    │    ├─ CLCollectionLayout.h
+│    │    └─ CLCollectionLayout.m
+│    ├─ CLTableView
 │    │    ├─ CLTableView.h
 │    │    └─ CLTableView.m
-│    └─ CLTextFiled // 格式化TextFiled
+│    └─ CLTextFiled
 │           ├─ CLTextField.h
 │           └─ CLTextField.m
-├─ Macro //宏定义
+├─ Macro
 │    └─ CLKitHelpMacro.h
-└─ NetWork  //网络工具
+└─ NetWork
+       ├─ .DS_Store
        ├─ NetWroking
        │    ├─ NetWorkCache.h
        │    ├─ NetWorkCache.m
@@ -98,9 +109,10 @@ pod 'CLKitHelp'
        ├─ Socket
        │    ├─ SocketTools.h
        │    └─ SocketTools.m
-       └─ WebSocket 
+       └─ WebSocket
               ├─ WebSocketTools.h
               └─ WebSocketTools.m
+
 ```
               
 ## 系统要求

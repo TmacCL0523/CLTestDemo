@@ -5,7 +5,7 @@
 
     不带后缀的文件名
     MessageViewController
-     
+
      　　　　　　　 ┏┓       ┏┓+ +
      　　　　　　　┏┛┻━━━━━━━┛┻┓ + +
      　　　　　　　┃　　　　　　 ┃
@@ -27,18 +27,19 @@
      　　　　　　　　　┗┓┓┏━━━┳┓┏┛ + + + +
      　　　　　　　　　 ┃┫┫　 ┃┫┫
      　　　　　　　　　 ┗┻┛　 ┗┻┛+ + + +
-     
+
 **/
 
 #import "MessageViewController.h"
+#import "MessageListView.h"
 
 @interface MessageViewController ()
-
+@property (nonatomic, strong) MessageListView *messageListView;
+@property (nonatomic, strong) NSMutableArray *dataArray;
 @end
 
 @implementation MessageViewController
 
-#pragma mark ================Object - 对象=================
 
 #pragma mark ================Initialize-初始化=================
 
@@ -46,7 +47,6 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = CLRandomColor;
-
 }
 
 #pragma mark ================Methods - 方法=================
@@ -76,6 +76,43 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
+}
+
+-(void)clSetupViews
+{
+    [self.view addSubview:self.messageListView];
+
+}
+
+-(void)clLayoutViews
+{
+    self.messageListView
+    .sd_layout
+    .leftEqualToView(self.view)
+    .rightEqualToView(self.view)
+    .topEqualToView(self.view)
+    .bottomEqualToView(self.view);
+}
+
+-(void)clLoadDataWithModel
+{
+    
+}
+#pragma mark ================Object - 对象=================
+- (MessageListView *)messageListView
+{
+    if (!_messageListView) {
+        _messageListView = [MessageListView new];
+    }
+    return _messageListView;
+}
+
+- (NSMutableArray *)dataArray
+{
+    if (!_dataArray) {
+        _dataArray = [NSMutableArray new];
+    }
+    return _dataArray;
 }
 
 @end

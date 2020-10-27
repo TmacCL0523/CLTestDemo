@@ -15,6 +15,7 @@ target 'CLTestDemo' do
   pod 'CYLTabBarController'
   pod 'PPBadgeView'
   pod 'SDCycleScrollView'
-  
+  pod 'SDAutoLayout'
+
   
 end

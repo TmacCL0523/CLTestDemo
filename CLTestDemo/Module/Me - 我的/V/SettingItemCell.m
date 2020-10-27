@@ -24,10 +24,13 @@
         self.button = [UIButton new];
         [self.button clKit_SetImagePoint:ButtonImageLocationTop andPadding:5];
         self.button.userInteractionEnabled = NO;
+        
         [self.contentView addSubview:self.button];
-        [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(self.contentView);
-        }];
+        self.button.sd_layout.spaceToSuperView(UIEdgeInsetsMake(0, 0, 0, 0));
+
+//        [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.edges.equalTo(self.contentView);
+//        }];
     }
     return self;
 }

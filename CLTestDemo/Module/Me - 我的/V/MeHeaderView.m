@@ -271,7 +271,7 @@
     if (!_payBtn) {
         _payBtn = [UIButton clKitButtonWithTitle:@"充值" backColor:UIColor.clearColor nonarlImage:CLGetImage(@"充值") selectImage:nil titleColor:CLRGBAColor(255, 255, 255, 1) font:CLFont(11) cornerRadius:0];
         [_payBtn setBackgroundImage:CLGetImage(@"充值背景") forState:UIControlStateNormal];
-//        _payBtn.
+        [_payBtn clKit_SetImagePoint:ButtonImageLocationLeft andPadding:10];
     }
     return _payBtn;
 }

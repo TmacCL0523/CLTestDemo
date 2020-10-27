@@ -98,7 +98,6 @@
 /**
  * 初始化
  */
-
 - (void)prepareLayout {
     [super prepareLayout];
 
@@ -113,8 +112,6 @@
     }
 
     NSLog(@"%lu", (unsigned long)self.colunmCount);
-    NSLog(@"123123123%f",self.collectionView.frame.size.width);
-
     // 清楚之前所有的布局属性
     [self.attrsArr removeAllObjects];
 
@@ -140,14 +137,11 @@
     UICollectionViewLayoutAttributes *attrs = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
 
     //collectionView的宽度
-    CGFloat collectionViewW = [UIScreen mainScreen].bounds.size.width;
-
-    // 设置布局属性的frame
+    CGFloat collectionViewW = UIScreen.mainScreen.bounds.size.width;
     
+    // 设置布局属性的frame
+
     CGFloat cellW = (collectionViewW - self.edgeInsets.left - self.edgeInsets.right - (self.colunmCount - 1) * self.columnMargin) / self.colunmCount;
-    NSLog(@"%f",[UIScreen mainScreen].bounds.size.width);
-    NSLog(@"%f",collectionViewW);
-    NSLog(@"%f",cellW);
     CGFloat cellH = [self.delegate collectionViewLayout:self heightForItemAtIndexPath:indexPath.item itemWith:cellW];
 
     // 找出最短的那一列

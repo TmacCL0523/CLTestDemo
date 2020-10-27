@@ -16,4 +16,6 @@
 #import "SDCycleScrollView.h"
 #import <SDWebImage.h>
 #import <YYModel.h>
+#import <SDAutoLayout.h>
+
 #endif /* PrefixHeader_pch */

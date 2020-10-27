@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "免打扰.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "启动动画.jpg",
+      "filename" : "免打扰@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "免打扰@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
