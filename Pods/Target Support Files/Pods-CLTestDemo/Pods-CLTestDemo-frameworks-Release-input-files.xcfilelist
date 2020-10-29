@@ -11,6 +11,7 @@ ${BUILT_PRODUCTS_DIR}/PPBadgeView/PPBadgeView.framework
 ${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework
 ${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SGPagingView/SGPagingView.framework
 ${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework
 ${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
 ${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework

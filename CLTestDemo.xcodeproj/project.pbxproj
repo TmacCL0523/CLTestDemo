@@ -12,6 +12,10 @@
 		133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D2779253E8B3F0058C041 /* AppDelegate.m */; };
 		133D2785253E8B400058C041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133D2784253E8B400058C041 /* Assets.xcassets */; };
 		133D278B253E8B400058C041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D278A253E8B400058C041 /* main.m */; };
+		1348321925490D3300D172FB /* AskForChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1348321825490D3300D172FB /* AskForChatController.m */; };
+		1348321E25490D5100D172FB /* AccompanyChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1348321D25490D5100D172FB /* AccompanyChatController.m */; };
+		1348322225490D6E00D172FB /* ChooseChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1348322125490D6E00D172FB /* ChooseChatController.m */; };
+		1348322625496A5900D172FB /* ChooseChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1348322525496A5900D172FB /* ChooseChatView.m */; };
 		136C0B34254171980060448C /* SettingItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 136C0B33254171980060448C /* SettingItemCell.m */; };
 		136C0B4A25418AA60060448C /* DyNamicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 136C0B4925418AA60060448C /* DyNamicView.m */; };
 		1383508A25401142009D9BD8 /* AdverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1383508925401142009D9BD8 /* AdverCell.m */; };
@@ -40,6 +44,14 @@
 		133D2784253E8B400058C041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133D2789253E8B400058C041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		133D278A253E8B400058C041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1348321725490D3300D172FB /* AskForChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AskForChatController.h; sourceTree = "<group>"; };
+		1348321825490D3300D172FB /* AskForChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AskForChatController.m; sourceTree = "<group>"; };
+		1348321C25490D5100D172FB /* AccompanyChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccompanyChatController.h; sourceTree = "<group>"; };
+		1348321D25490D5100D172FB /* AccompanyChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccompanyChatController.m; sourceTree = "<group>"; };
+		1348322025490D6E00D172FB /* ChooseChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseChatController.h; sourceTree = "<group>"; };
+		1348322125490D6E00D172FB /* ChooseChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseChatController.m; sourceTree = "<group>"; };
+		1348322425496A5900D172FB /* ChooseChatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseChatView.h; sourceTree = "<group>"; };
+		1348322525496A5900D172FB /* ChooseChatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseChatView.m; sourceTree = "<group>"; };
 		136C0B32254171980060448C /* SettingItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingItemCell.h; sourceTree = "<group>"; };
 		136C0B33254171980060448C /* SettingItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingItemCell.m; sourceTree = "<group>"; };
 		136C0B4825418AA60060448C /* DyNamicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DyNamicView.h; sourceTree = "<group>"; };
@@ -147,6 +159,35 @@
 			path = CLTestDemo;
 			sourceTree = "<group>";
 		};
+		1348321425490CB500D172FB /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		1348321525490CBA00D172FB /* V */ = {
+			isa = PBXGroup;
+			children = (
+				1348322425496A5900D172FB /* ChooseChatView.h */,
+				1348322525496A5900D172FB /* ChooseChatView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		1348321625490CBE00D172FB /* C */ = {
+			isa = PBXGroup;
+			children = (
+				1348321725490D3300D172FB /* AskForChatController.h */,
+				1348321825490D3300D172FB /* AskForChatController.m */,
+				1348321C25490D5100D172FB /* AccompanyChatController.h */,
+				1348321D25490D5100D172FB /* AccompanyChatController.m */,
+				1348322025490D6E00D172FB /* ChooseChatController.h */,
+				1348322125490D6E00D172FB /* ChooseChatController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		136C0B4525418A790060448C /* M */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +265,9 @@
 		13FB3A91253ECED10002DBC1 /* HomePage - 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				1348321625490CBE00D172FB /* C */,
+				1348321525490CBA00D172FB /* V */,
+				1348321425490CB500D172FB /* M */,
 				13FB3A9D253ED12C0002DBC1 /* HomePageViewController.h */,
 				13FB3A9E253ED12C0002DBC1 /* HomePageViewController.m */,
 			);
@@ -470,11 +514,14 @@
 			files = (
 				13FB3A9F253ED12C0002DBC1 /* HomePageViewController.m in Sources */,
 				13FB3A9A253ED1210002DBC1 /* DynamicViewController.m in Sources */,
+				1348322225490D6E00D172FB /* ChooseChatController.m in Sources */,
 				13133DE125480FB300CE3BB4 /* MessageListCell.m in Sources */,
+				1348321925490D3300D172FB /* AskForChatController.m in Sources */,
 				13FB3AAB253ED1470002DBC1 /* MeViewController.m in Sources */,
 				136C0B34254171980060448C /* SettingItemCell.m in Sources */,
 				13FB3B25253EF3EA0002DBC1 /* MeHeaderView.m in Sources */,
 				1383508A25401142009D9BD8 /* AdverCell.m in Sources */,
+				1348322625496A5900D172FB /* ChooseChatView.m in Sources */,
 				133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */,
 				13FB3B1B253EF1C50002DBC1 /* MeView.m in Sources */,
 				13133DCB2547B9D300CE3BB4 /* MessageListView.m in Sources */,
@@ -484,6 +531,7 @@
 				138350B2254022B2009D9BD8 /* MeSettingCell.m in Sources */,
 				133D278B253E8B400058C041 /* main.m in Sources */,
 				13FB3AAF253ED14F0002DBC1 /* MessageViewController.m in Sources */,
+				1348321E25490D5100D172FB /* AccompanyChatController.m in Sources */,
 				13FB3AA3253ED1370002DBC1 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

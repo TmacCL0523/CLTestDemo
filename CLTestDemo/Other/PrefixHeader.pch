@@ -17,5 +17,5 @@
 #import <SDWebImage.h>
 #import <YYModel.h>
 #import <SDAutoLayout.h>
-
+#import <SGPagingView.h>
 #endif /* PrefixHeader_pch */

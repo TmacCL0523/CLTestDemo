@@ -16,6 +16,6 @@ target 'CLTestDemo' do
   pod 'PPBadgeView'
   pod 'SDCycleScrollView'
   pod 'SDAutoLayout'
-
+  pod 'SGPagingView'
   
 end
