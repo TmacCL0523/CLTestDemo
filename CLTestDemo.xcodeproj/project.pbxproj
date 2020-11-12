@@ -60,6 +60,7 @@
 		1383508925401142009D9BD8 /* AdverCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdverCell.m; sourceTree = "<group>"; };
 		138350B0254022B2009D9BD8 /* MeSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeSettingCell.h; sourceTree = "<group>"; };
 		138350B1254022B2009D9BD8 /* MeSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeSettingCell.m; sourceTree = "<group>"; };
+		13B5D23725513B2B007AE88E /* CLTestDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CLTestDemo.entitlements; sourceTree = "<group>"; };
 		13FB3A98253ED1210002DBC1 /* DynamicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
 		13FB3A99253ED1210002DBC1 /* DynamicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 		13FB3A9D253ED12C0002DBC1 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 		133D2777253E8B3F0058C041 /* CLTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				13B5D23725513B2B007AE88E /* CLTestDemo.entitlements */,
 				13FB3A74253E8C440002DBC1 /* Appdelegate */,
 				13FB3A73253E8C130002DBC1 /* Module */,
 				13FB3A76253E8C530002DBC1 /* Other */,
@@ -657,8 +659,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CLTestDemo/CLTestDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5B3NSVCL23;
+				DEVELOPMENT_TEAM = 42UV2FRKWN;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLTestDemo/Other/PrefixHeader.pch";
@@ -680,8 +683,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CLTestDemo/CLTestDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5B3NSVCL23;
+				DEVELOPMENT_TEAM = 42UV2FRKWN;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLTestDemo/Other/PrefixHeader.pch";

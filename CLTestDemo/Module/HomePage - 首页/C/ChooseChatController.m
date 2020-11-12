@@ -89,7 +89,6 @@
 {
     if (!_chatView) {
         _chatView = [ChooseChatView new];
-        _chatView.backgroundColor = UIColor.redColor;
     }
     return _chatView;
 }

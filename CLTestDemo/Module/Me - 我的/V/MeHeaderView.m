@@ -200,20 +200,21 @@
 {
     
 }
-/*
 -(Class)customCollectionViewCellClassForCycleScrollView:(SDCycleScrollView *)view
 {
-    if (view != self.adverView) {
+    CLLogString(@"判断是否走了代理");
+    if (view != _adverView) {
+        CLLogString(@"空");
         return nil;
     }
     return [AdverCell class];
 }
 - (void)setupCustomCell:(UICollectionViewCell *)cell forIndex:(NSInteger)index cycleScrollView:(SDCycleScrollView *)view
 {
+    CLLogObj([self.adverArray yy_modelToJSONString]);
     AdverCell *myCell = (AdverCell *)cell;
     [myCell.icon sd_setImageWithURL:[NSURL URLWithString:self.adverArray[index]] placeholderImage:CLGetImage(@"占位图")];
 }
-*/
 #pragma mark ================Methods - 方法=================
 - (CGFloat)getHeaderViewHeight
 {
@@ -227,6 +228,7 @@
     [self.adverArray removeAllObjects];
     [self.adverArray addObjectsFromArray:data];
     self.adverView.imageURLStringsGroup = self.adverArray;
+    [self.adverView reloadInputViews];
 }
 
 #pragma mark ================Private - 私有=================
@@ -312,7 +314,9 @@
         _starView = [MeFansButton new];
         _starView.title.text = @"点赞";
         _starView.deatil.text = @"1.3K";
-        [_starView.title pp_addBadgeWithText:@"99+"];
+        [_starView.title pp_addBadgeWithNumber:101];
+        [_starView.title pp_setBadgeFlexMode:PPBadgeViewFlexModeTail];
+        [_starView.title pp_moveBadgeWithX:_starView.title.width Y:0];
     }
     return _starView;
 }
@@ -327,6 +331,7 @@
         _adverView.pageControlStyle = SDCycleScrollViewPageContolAlimentCenter;
         _adverView.pageDotColor = UIColor.lightGrayColor;
         _adverView.currentPageDotColor = UIColor.blackColor;
+        _adverView.pageControlBottomOffset = -10;
         _adverView.imageURLStringsGroup = self.adverArray;
     }
     return _adverView;

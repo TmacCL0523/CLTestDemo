@@ -95,6 +95,8 @@
         _bgView.pagingEnabled = YES;
         _bgView.showsHorizontalScrollIndicator = NO;
         _bgView.delegate = self;
+        _bgView.bounces=NO; //反弹效果
+
     }
     return _bgView;
 }
@@ -116,7 +118,21 @@
 #pragma mark ================Methods - 方法=================
 - (void)itemChange
 {
-    UIViewController *newController = self.vcArray[self.titleControl.selectedSegmentIndex];
+    CLLogInteger(self.titleControl.selectedSegmentIndex);
+    CGFloat xValue;
+    switch (self.titleControl.selectedSegmentIndex) {
+        case 0:
+            xValue = 0;
+            break;
+        case 1:
+            xValue = CLScreenWidth;
+            break;
+        default:
+            xValue = CLScreenWidth *2;
+            break;
+    }
+    CLLogPoint(self.bgView.contentOffset);
+    [self.bgView setContentOffset:CGPointMake(xValue, 0) animated:YES];
 }
 
 #pragma mark ================Delegate - 代理=================
@@ -133,6 +149,7 @@
     NSInteger n = self.bgView.contentOffset.x / self.bgView.width;
     self.titleControl.selectedSegmentIndex = n;
     CLLogInteger(n);
+    [self addChildVC];
 }
 #pragma mark ================Private - 私有=================
 - (void)clSetupViews
@@ -167,7 +184,6 @@
     
     ChooseChatController * sound = [[ChooseChatController alloc]init];
     [self addChildViewController:sound];
-    
     [self.vcArray addObject:all];
     [self.vcArray addObject:vedio];
     [self.vcArray addObject:sound];
