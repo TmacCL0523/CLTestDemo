@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EFD826B25645B000043D3E7 /* MyAccompanyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD826925645B000043D3E7 /* MyAccompanyView.m */; };
+		0EFD826F25645CC40043D3E7 /* MyAccompanyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD826E25645CC40043D3E7 /* MyAccompanyCell.m */; };
 		13133DCB2547B9D300CE3BB4 /* MessageListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13133DCA2547B9D300CE3BB4 /* MessageListView.m */; };
 		13133DE125480FB300CE3BB4 /* MessageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13133DE025480FB300CE3BB4 /* MessageListCell.m */; };
 		133D277A253E8B3F0058C041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D2779253E8B3F0058C041 /* AppDelegate.m */; };
@@ -34,6 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EFD826925645B000043D3E7 /* MyAccompanyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccompanyView.m; sourceTree = "<group>"; };
+		0EFD826A25645B000043D3E7 /* MyAccompanyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccompanyView.h; sourceTree = "<group>"; };
+		0EFD826D25645CC40043D3E7 /* MyAccompanyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAccompanyCell.h; sourceTree = "<group>"; };
+		0EFD826E25645CC40043D3E7 /* MyAccompanyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAccompanyCell.m; sourceTree = "<group>"; };
 		13133DC92547B9D300CE3BB4 /* MessageListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageListView.h; sourceTree = "<group>"; };
 		13133DCA2547B9D300CE3BB4 /* MessageListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageListView.m; sourceTree = "<group>"; };
 		13133DDF25480FB300CE3BB4 /* MessageListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageListCell.h; sourceTree = "<group>"; };
@@ -171,8 +177,12 @@
 		1348321525490CBA00D172FB /* V */ = {
 			isa = PBXGroup;
 			children = (
+				0EFD826A25645B000043D3E7 /* MyAccompanyView.h */,
+				0EFD826925645B000043D3E7 /* MyAccompanyView.m */,
 				1348322425496A5900D172FB /* ChooseChatView.h */,
 				1348322525496A5900D172FB /* ChooseChatView.m */,
+				0EFD826D25645CC40043D3E7 /* MyAccompanyCell.h */,
+				0EFD826E25645CC40043D3E7 /* MyAccompanyCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -516,11 +526,13 @@
 			files = (
 				13FB3A9F253ED12C0002DBC1 /* HomePageViewController.m in Sources */,
 				13FB3A9A253ED1210002DBC1 /* DynamicViewController.m in Sources */,
+				0EFD826B25645B000043D3E7 /* MyAccompanyView.m in Sources */,
 				1348322225490D6E00D172FB /* ChooseChatController.m in Sources */,
 				13133DE125480FB300CE3BB4 /* MessageListCell.m in Sources */,
 				1348321925490D3300D172FB /* AskForChatController.m in Sources */,
 				13FB3AAB253ED1470002DBC1 /* MeViewController.m in Sources */,
 				136C0B34254171980060448C /* SettingItemCell.m in Sources */,
+				0EFD826F25645CC40043D3E7 /* MyAccompanyCell.m in Sources */,
 				13FB3B25253EF3EA0002DBC1 /* MeHeaderView.m in Sources */,
 				1383508A25401142009D9BD8 /* AdverCell.m in Sources */,
 				1348322625496A5900D172FB /* ChooseChatView.m in Sources */,

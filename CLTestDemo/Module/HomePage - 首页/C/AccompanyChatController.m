@@ -31,8 +31,11 @@
 **/
 
 #import "AccompanyChatController.h"
+#import "MyAccompanyView.h"
 
 @interface AccompanyChatController ()
+
+@property (nonatomic , strong) MyAccompanyView *bgView;
 
 @end
 
@@ -45,6 +48,10 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
+    [self.view addSubview:self.bgView];
+    [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
 
 #pragma mark ================Methods - 方法=================
@@ -77,5 +84,11 @@
     [super viewDidDisappear:animated];
 }
 #pragma mark ================Object - 对象=================
-
+- (MyAccompanyView *)bgView
+{
+    if (!_bgView) {
+        _bgView = [MyAccompanyView new];
+    }
+    return _bgView;
+}
 @end

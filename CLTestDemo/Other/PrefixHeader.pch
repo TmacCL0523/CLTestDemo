@@ -18,4 +18,5 @@
 #import <YYModel.h>
 #import <SDAutoLayout.h>
 #import <SGPagingView.h>
+#import <CLKitHelp.h>
 #endif /* PrefixHeader_pch */
